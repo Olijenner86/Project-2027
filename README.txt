@@ -1,2 +1,2 @@
-TRIATHLON 2027 APP
+PROJECT 2027 APP
 44-week colourful PWA for Edinburgh Marathon (30 May 2027) and full-distance Ironman Leeds (15 August 2027). Includes two pool swims, three bikes, three runs, optional brick run, tick-off boxes, saved progress and notes, countdown, and shift-pattern guide. Upload all files to your GitHub Pages repository and commit to main. Garmin sync is not connected; it requires API access and a backend.
