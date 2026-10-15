@@ -1,10 +1,10 @@
 {
-  "name": "Edinburgh Marathon 2027",
-  "short_name": "Edinburgh 2027",
+  "name": "Triathlon 2027",
+  "short_name": "Tri 2027",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f4f4f6",
-  "theme_color": "#111111",
+  "background_color": "#f7f6fb",
+  "theme_color": "#30245c",
   "icons": [
     {
       "src": "icon-192.png",

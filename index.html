@@ -1,105 +1,25 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#111111">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Edinburgh 2027">
-<link rel="manifest" href="manifest.json">
-<link rel="apple-touch-icon" href="icon-192.png">
-<title>Edinburgh Marathon 2027</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#30245c"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Tri 2027"><link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="icon-192.png"><title>Marathon + Ironman 2027</title>
 <style>
-:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#111;background:#f4f4f6}
-*{box-sizing:border-box} body{margin:0;padding:0 0 35px}
-header{background:#111;color:white;padding:calc(18px + env(safe-area-inset-top)) 18px 18px}
-h1{font-size:25px;margin:0 0 4px}.sub{opacity:.75;font-size:14px}
-.container{max-width:760px;margin:auto;padding:14px}
-.card{background:white;border-radius:18px;padding:16px;margin:12px 0;box-shadow:0 2px 12px #0000000c}
-.hero{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.stat{background:#f1f1f3;border-radius:14px;padding:12px}.stat b{display:block;font-size:24px}.stat small{color:#666}
-.progress{height:10px;background:#ddd;border-radius:99px;overflow:hidden;margin-top:8px}.bar{height:100%;background:#111;width:0}
-button,select{font:inherit;border:0;border-radius:12px;padding:11px 13px;background:#e9e9ed}
-button.primary{background:#111;color:white}.nav{display:flex;gap:8px;overflow:auto;margin:10px 0}.nav button{white-space:nowrap}
-.week{border:2px solid transparent}.week.current{border-color:#111}.week h2{font-size:18px;margin:0 0 12px}
-.run{display:grid;grid-template-columns:30px 1fr auto;gap:10px;align-items:center;padding:11px 0;border-top:1px solid #eee}
-.run:first-of-type{border-top:0}.tick{width:24px;height:24px}.run.done .desc{text-decoration:line-through;color:#777}
-.badge{font-size:12px;padding:5px 8px;border-radius:99px;background:#eee;color:#555}.badge.today{background:#111;color:white}
-textarea{width:100%;min-height:80px;border:1px solid #ddd;border-radius:12px;padding:10px;font:inherit}
-footer{text-align:center;color:#777;font-size:12px;padding:20px}
-@media(max-width:430px){.hero{grid-template-columns:1fr 1fr}.stat b{font-size:20px}}
-</style>
-</head>
-<body>
-<header><h1>Edinburgh Marathon 2027</h1><div class="sub">Target 3:55 • Sunday 30 May 2027 • 5:34/km</div></header>
-<div class="container">
-<div class="card hero">
- <div class="stat"><small>Countdown</small><b id="countdown">—</b></div>
- <div class="stat"><small>Runs completed</small><b id="doneCount">0 / 136</b></div>
-</div>
-<div class="card">
- <b>Overall progress</b><div class="progress"><div class="bar" id="bar"></div></div>
- <div style="margin-top:8px;color:#666;font-size:13px" id="kmText">0 km completed</div>
-</div>
-<div class="nav">
- <button class="primary" onclick="showCurrent()">Current week</button>
- <button onclick="showAll()">All weeks</button>
- <button onclick="showShift()">Shift pattern</button>
-</div>
-<div id="app"></div>
-<div class="card" id="shiftCard" style="display:none">
- <h2 style="margin-top:0">Your 2–2–4 shift pattern</h2>
- <p>Anchor: <b>Tuesday 6 October 2026 = Night Shift 2</b>.</p>
- <p>Cycle: <b>Day 1–2</b> day shifts → <b>Night 1–2</b> → <b>4 days off</b>.</p>
- <p>Preferred run placement:</p>
- <ul><li>Run 1 — 2nd day shift / next suitable day</li><li>Run 2 — first day off</li><li>Run 3 — third day off</li><li>Run 4 — fourth day off</li></ul>
- <p style="color:#666">The app treats this as a guide, so you can move a run when work, recovery or life gets in the way.</p>
-</div>
-<div class="card">
- <h3 style="margin-top:0">Training notes</h3>
- <textarea id="notes" placeholder="Add notes about races, niggles, weight, fuelling or how training feels..."></textarea>
-</div>
-</div>
-<footer>Edinburgh Marathon 2027 • Garmin matching can be added later when Garmin API access is connected.</footer>
+:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f7f6fb;color:#25233a}*{box-sizing:border-box}body{margin:0;padding-bottom:30px}header{color:white;padding:calc(20px + env(safe-area-inset-top)) 18px 22px;background:linear-gradient(135deg,#30245c,#6554c0 60%,#277da1)}h1{font-size:24px;margin:0 0 5px}.sub{font-size:13px;opacity:.9}.container{max-width:760px;margin:auto;padding:14px}.card{background:white;border-radius:18px;padding:16px;margin:12px 0;box-shadow:0 3px 14px #33265e10}.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}.stat{padding:13px;border-radius:14px;background:#f0edfb}.stat b{display:block;font-size:23px}.stat small{color:#6b6683}.progress{height:10px;background:#e8e5ef;border-radius:99px;overflow:hidden;margin:9px 0}.bar{height:100%;width:0;background:linear-gradient(90deg,#6554c0,#43aa8b)}.nav{display:flex;gap:8px;overflow:auto;margin:10px 0}.nav button{white-space:nowrap}button{font:inherit;border:0;border-radius:12px;padding:11px 13px;background:#ece9f7;color:#30245c}button.primary{background:#30245c;color:white}.week{border:2px solid transparent}.week.current{border-color:#6554c0}.week h2{font-size:18px;margin:0 0 12px}.phase{display:inline-block;background:#f0edfb;color:#5544a5;padding:5px 8px;border-radius:99px;font-size:11px;margin-top:7px}.sessions{display:grid;grid-template-columns:1fr;gap:6px}.session{display:grid;grid-template-columns:28px 1fr;gap:10px;padding:12px 10px;border-radius:13px;align-items:start}.session input{width:22px;height:22px;margin:2px 0 0;accent-color:#30245c}.name{font-weight:750}.detail{font-size:13px;line-height:1.4;margin-top:3px;color:#4d4a5d}.done .name,.done .detail{text-decoration:line-through;opacity:.65}.swim{background:#e1f1fb}.bike{background:#e0f5e9}.run{background:#ffeadf}.brick{background:#f1e7ff}.tag{font-size:10px;text-transform:uppercase;font-weight:800;opacity:.75}textarea{width:100%;min-height:85px;border:1px solid #ddd6f2;border-radius:12px;padding:10px;font:inherit}.legend{display:flex;flex-wrap:wrap;gap:7px}.legend span{font-size:12px;padding:6px 9px;border-radius:99px}footer{text-align:center;color:#7d788e;font-size:12px;padding:18px}@media(min-width:600px){.sessions{grid-template-columns:1fr 1fr}}
+</style></head><body><header><h1>Triathlon 2027</h1><div class="sub">Edinburgh Marathon • 30 May 2027 | Full Ironman Leeds • 15 Aug 2027</div></header><div class="container">
+<div class="card stats"><div class="stat"><small>Days to Ironman</small><b id="countdown">—</b></div><div class="stat"><small>Core sessions ticked off</small><b id="doneCount">0</b></div></div>
+<div class="card"><b>Overall progress</b><div class="progress"><div class="bar" id="bar"></div></div><div id="progressText" style="font-size:13px;color:#6b6683">0% completed</div></div>
+<div class="card"><b>Session colours</b><div class="legend" style="margin-top:9px"><span style="background:#e1f1fb">🏊 Swim</span><span style="background:#e0f5e9">🚴 Bike</span><span style="background:#ffeadf">🏃 Run</span><span style="background:#f1e7ff">Brick run</span></div></div>
+<div class="nav"><button class="primary" onclick="showCurrent()">Current week</button><button onclick="showAll()">All weeks</button><button onclick="showShift()">Shift guide</button></div><div id="app"></div>
+<div id="shiftCard" class="card" style="display:none"><h2>Your 2–2–4 shift pattern</h2><p>Cycle: 2 day shifts → 2 night shifts → 4 days off. Anchor retained from your previous setup: <b>6 October 2026 = Night Shift 2</b>.</p><ul><li><b>Day shifts:</b> shorter bike sessions and shorter runs where practical.</li><li><b>Night shifts:</b> rest or an easy swim; protect sleep.</li><li><b>Days off:</b> prioritise long bike and long run, with recovery between hard sessions.</li><li><b>Brick run:</b> optional 10–20 minutes easy after a short bike.</li></ul><p>Move sessions to protect sleep and recovery.</p></div>
+<div class="card"><h3>Training notes</h3><textarea id="notes" placeholder="Notes on sessions, fatigue, fuelling, kit or race plans..."></textarea></div>
+<div class="card"><h3>Key reminders</h3><ul><li>Most bike and run work should feel easy and conversational.</li><li>Practise race fuelling on longer rides; build intake gradually.</li><li>Build swim distance while keeping relaxed technique.</li><li>After the marathon, take a recovery week before the Ironman-specific build.</li></ul><p style="font-size:12px;color:#6b6683">Starter framework, not personalised coaching. Adjust for fatigue, injury, pool access and actual event requirements.</p></div></div><footer>Marathon + Full Ironman 2027 • Tick-offs and notes save on this device.</footer>
 <script>
-const race=new Date("2027-05-30T10:00:00");
-let data=[];
-let state=JSON.parse(localStorage.getItem("edinburgh2027_v2")||"{}");
-let notes=localStorage.getItem("edinburgh2027_notes")||"";
-document.getElementById("notes").value=notes;
-document.getElementById("notes").addEventListener("input",e=>localStorage.setItem("edinburgh2027_notes",e.target.value));
-async function load(){data=await fetch("training.json").then(r=>r.json()); showCurrent(); updateStats();}
-function key(w,r){return "w"+w+"r"+r}
-function km(s){let m=s.match(/(\d+(?:\.\d+)?)\s*km/);return m?parseFloat(m[1]):0}
-function isCurrent(w){return w===1} // Training plan starts this week: 5–11 Oct 2026
-function renderWeeks(list){
- let html="";
- list.forEach(w=>{
-  html+=`<div class="card week ${isCurrent(w.week)?"current":""}"><h2>Week ${w.week} <span class="badge">${w.dates}</span>${isCurrent(w.week)?' <span class="badge today">CURRENT</span>':''}</h2>`;
-  w.runs.forEach((run,i)=>{
-   const k=key(w.week,i+1), done=!!state[k];
-   html+=`<label class="run ${done?'done':''}"><input class="tick" type="checkbox" ${done?'checked':''} onchange="toggle('${k}',this.checked)"><span class="desc"><b>Run ${i+1}</b> — ${run}</span><span class="badge">${i===3?'LONG':''}</span></label>`;
-  });
-  html+="</div>";
- });
- document.getElementById("app").innerHTML=html;
-}
-function toggle(k,v){state[k]=v;localStorage.setItem("edinburgh2027_v2",JSON.stringify(state));updateStats();renderWeeks(data.filter(w=>document.getElementById("app").dataset.mode==="all"?true:isCurrent(w.week)));}
-function updateStats(){
- let done=0,total=0,doneKm=0;
- data.forEach(w=>w.runs.forEach(r=>{total++;if(state[key(w.week,w.runs.indexOf(r)+1)]){done++;doneKm+=km(r)}}));
- document.getElementById("doneCount").textContent=`${done} / ${total}`;
- document.getElementById("bar").style.width=(done/total*100)+"%";
- document.getElementById("kmText").textContent=`${doneKm.toFixed(0)} km completed`;
- let diff=Math.ceil((race-new Date())/86400000);
- document.getElementById("countdown").textContent=diff>=0?`${diff} days`:"Race day";
-}
-function showCurrent(){document.getElementById("shiftCard").style.display="none";document.getElementById("app").dataset.mode="current";renderWeeks(data.filter(w=>isCurrent(w.week)))}
-function showAll(){document.getElementById("shiftCard").style.display="none";document.getElementById("app").dataset.mode="all";renderWeeks(data)}
+const race=new Date("2027-08-15T07:00:00");let weeks=[],state=JSON.parse(localStorage.getItem("tri2027_checks")||"{}");
+const notes=document.getElementById("notes");notes.value=localStorage.getItem("tri2027_notes")||"";notes.addEventListener("input",e=>localStorage.setItem("tri2027_notes",e.target.value));
+async function load(){weeks=await fetch("training.json").then(r=>r.json());updateStats();showCurrent()}
+function key(w,id){return "w"+w+"_"+id}
+function currentWeek(){let n=Math.floor((new Date()-new Date("2026-10-12T00:00:00"))/604800000)+1;return Math.max(1,Math.min(44,n))}
+function render(list,mode){document.getElementById("app").dataset.mode=mode;let html="";list.forEach(w=>{html+=`<div class="card week ${w.week===currentWeek()?"current":""}"><h2>Week ${w.week} <span style="font-weight:400;font-size:13px;color:#6b6683">${w.dates}</span><div class="phase">${w.phase}</div></h2><div class="sessions">`;w.sessions.forEach(s=>{let k=key(w.week,s.id),done=!!state[k];html+=`<label class="session ${s.type} ${done?"done":""}"><input type="checkbox" ${done?"checked":""} onchange="toggle('${k}',this.checked)"><span><span class="name">${s.name}</span> ${s.optional?'<span class="tag">Optional</span>':""}<div class="detail">${s.detail}</div></span></label>`});html+="</div></div>"});document.getElementById("app").innerHTML=html}
+function toggle(k,v){state[k]=v;localStorage.setItem("tri2027_checks",JSON.stringify(state));updateStats();document.getElementById("app").dataset.mode==="all"?showAll():showCurrent()}
+function showCurrent(){document.getElementById("shiftCard").style.display="none";render(weeks.filter(w=>w.week===currentWeek()),"current")}
+function showAll(){document.getElementById("shiftCard").style.display="none";render(weeks,"all")}
 function showShift(){document.getElementById("app").innerHTML="";document.getElementById("shiftCard").style.display="block"}
-load();
-setInterval(updateStats,60000);
-if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
-</script>
-</body></html>
+function updateStats(){let done=0,total=0;weeks.forEach(w=>w.sessions.forEach(s=>{if(!s.optional){total++;if(state[key(w.week,s.id)])done++}}));document.getElementById("doneCount").textContent=`${done} / ${total}`;document.getElementById("bar").style.width=(total?done/total*100:0)+"%";document.getElementById("progressText").textContent=`${Math.round(total?done/total*100:0)}% of core sessions completed`;let d=Math.ceil((race-new Date())/86400000);document.getElementById("countdown").textContent=d>=0?d+" days":"Race day"}
+load();setInterval(updateStats,60000);if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js");
+</script></body></html>

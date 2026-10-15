@@ -1,342 +1,3082 @@
 [
   {
     "week": 1,
-    "dates": "5–11 Oct 2026",
-    "runs": [
-      "6 km easy + 4 strides",
-      "6 km easy",
-      "5 km easy",
-      "9 km long"
+    "dates": "12–18 Oct 2026",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "1,500 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "1,700 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "30 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "40 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "60 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "9 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "5 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "5 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 2,
-    "dates": "12–18 Oct 2026",
-    "runs": [
-      "7 km incl 4×2 min steady",
-      "6 km easy",
-      "5 km Parkrun / easy",
-      "10 km long"
+    "dates": "19–25 Oct",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "1,600 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "1,800 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "35 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "45 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "75 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "10 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "6 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "5 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 3,
-    "dates": "19–25 Oct 2026",
-    "runs": [
-      "6 km easy + strides",
-      "6 km easy",
-      "5 km easy",
-      "8 km recovery"
+    "dates": "26 Oct–1 Nov",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "1,700 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,000 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "40 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "50 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "90 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "11 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "6 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "6 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 4,
-    "dates": "26 Oct–1 Nov 2026",
-    "runs": [
-      "7 km incl 3×5 min tempo",
-      "6 km easy",
-      "5 km easy",
-      "11 km long"
+    "dates": "2–8 Nov",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "1,400 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "1,600 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "30 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "35 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "65 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "8 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "5 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "5 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 5,
-    "dates": "2–8 Nov 2026",
-    "runs": [
-      "8 km incl 4×3 min tempo",
-      "6 km easy",
-      "5 km Parkrun / easy",
-      "12 km long"
+    "dates": "9–15 Nov",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "1,800 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,100 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "40 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "50 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "100 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "12 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "6 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "6 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 6,
-    "dates": "9–15 Nov 2026",
-    "runs": [
-      "8 km incl 15 min tempo",
-      "7 km easy",
-      "5 km Parkrun controlled",
-      "13 km long"
+    "dates": "16–22 Nov",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "1,900 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,200 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "45 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "55 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "115 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "13 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "7 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "6 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 7,
-    "dates": "16–22 Nov 2026",
-    "runs": [
-      "6 km easy + strides",
-      "6 km easy",
-      "5 km easy",
-      "10 km recovery"
+    "dates": "23–29 Nov",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,000 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,300 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "50 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "60 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "130 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "14 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "7 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "7 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 8,
-    "dates": "23–29 Nov 2026",
-    "runs": [
-      "8 km incl 4×1 km controlled",
-      "7 km easy",
-      "5 km Parkrun",
-      "14 km long"
+    "dates": "30 Nov–6 Dec",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "1,600 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "1,800 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "35 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "40 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "90 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "10 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "5 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "5 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 9,
-    "dates": "30 Nov–6 Dec 2026",
-    "runs": [
-      "8 km incl 20 min tempo",
-      "7 km easy",
-      "6 km steady",
-      "15 km long"
+    "dates": "7–13 Dec",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,100 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,400 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "50 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "60 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "140 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "15 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "7 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "7 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 10,
-    "dates": "7–13 Dec 2026",
-    "runs": [
-      "9 km incl 3×8 min threshold",
-      "7 km easy",
-      "5 km easy / Parkrun",
-      "16 km long"
+    "dates": "14–20 Dec",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,200 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,500 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "55 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "65 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "155 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "16 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "8 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "8 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 11,
-    "dates": "14–20 Dec 2026",
-    "runs": [
-      "7 km easy + strides",
-      "7 km easy",
-      "5 km easy",
-      "12 km recovery"
+    "dates": "21–27 Dec",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "1,800 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,100 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "40 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "45 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "110 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "12 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "6 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "5 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 12,
-    "dates": "21–27 Dec 2026",
-    "runs": [
-      "9 km incl 4×1 km",
-      "8 km easy",
-      "6 km steady",
-      "17 km long"
+    "dates": "28 Dec–3 Jan",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,300 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,600 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "55 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "65 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "165 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "17 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "8 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "8 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 13,
-    "dates": "28 Dec 2026–3 Jan 2027",
-    "runs": [
-      "9 km incl 20 min tempo",
-      "8 km easy",
-      "5 km Parkrun",
-      "18 km long"
+    "dates": "4–10 Jan",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,400 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,800 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "60 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "70 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "180 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "18 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "8 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "8 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 14,
-    "dates": "4–10 Jan 2027",
-    "runs": [
-      "10 km incl 3×2 km threshold",
-      "8 km easy",
-      "6 km steady",
-      "16 km long"
+    "dates": "11–17 Jan",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "1,900 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,200 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "45 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "50 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "120 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "14 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "6 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "6 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 15,
-    "dates": "11–17 Jan 2027",
-    "runs": [
-      "8 km easy",
-      "7 km easy",
-      "5 km easy",
-      "13 km recovery"
+    "dates": "18–24 Jan",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,500 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,900 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "60 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "70 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "195 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "19 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "8 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "8 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 16,
-    "dates": "18–24 Jan 2027",
-    "runs": [
-      "10 km incl 4×2 km threshold",
-      "9 km easy",
-      "6 km easy",
-      "20 km long"
+    "dates": "25–31 Jan",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,600 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,000 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "65 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "75 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "210 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "20 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "9 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "9 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 17,
-    "dates": "25–31 Jan 2027",
-    "runs": [
-      "10 km incl 5×1 km",
-      "9 km easy",
-      "7 km steady",
-      "22 km long"
+    "dates": "1–7 Feb",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,100 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,400 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "45 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "55 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "140 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "15 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "7 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "6 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 18,
-    "dates": "1–7 Feb 2027",
-    "runs": [
-      "10 km incl 3×2 km",
-      "9 km easy",
-      "6 km easy",
-      "18 km recovery"
+    "dates": "8–14 Feb",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,700 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,100 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "65 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "75 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "220 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "21 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "9 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "9 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 19,
-    "dates": "8–14 Feb 2027",
-    "runs": [
-      "11 km incl 25 min tempo",
-      "10 km easy",
-      "7 km steady",
-      "24 km long"
+    "dates": "15–21 Feb",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,800 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,200 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "70 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "80 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "240 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "22 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "9 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "10 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 20,
-    "dates": "15–21 Feb 2027",
-    "runs": [
-      "11 km incl 5×1 km",
-      "10 km easy",
-      "7 km easy",
-      "25 km long"
+    "dates": "22–28 Feb",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,200 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,500 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "50 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "60 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "160 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "16 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "7 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "7 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 21,
-    "dates": "22–28 Feb 2027",
-    "runs": [
-      "11 km incl 2×3 km @ 5:30–5:35",
-      "10 km easy",
-      "6 km easy",
-      "21 km long"
+    "dates": "1–7 Mar",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,900 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,300 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "70 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "80 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "240 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "23 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "9 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "10 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 22,
-    "dates": "1–7 Mar 2027",
-    "runs": [
-      "12 km incl 4×2 km",
-      "10 km easy",
-      "7 km easy",
-      "27 km long"
+    "dates": "8–14 Mar",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "3,000 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,400 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "75 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "85 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "270 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "24 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "10 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "10 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 23,
-    "dates": "8–14 Mar 2027",
-    "runs": [
-      "8 km easy",
-      "8 km easy",
-      "5 km easy",
-      "20 km long"
+    "dates": "15–21 Mar",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,300 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,600 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "55 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "60 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "180 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "18 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "7 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "7 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 24,
-    "dates": "15–21 Mar 2027",
-    "runs": [
-      "12 km: 2 easy + 6 @ 5:30–5:35 + 4 easy",
-      "10 km easy",
-      "6 km easy",
-      "26 km long"
+    "dates": "22–28 Mar",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "3,000 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,400 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "75 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "85 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "270 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "25 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "10 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "10 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 25,
-    "dates": "22–28 Mar 2027",
-    "runs": [
-      "11 km incl 5×1 km @ 4:45–4:55",
-      "10 km easy",
-      "8 km steady",
-      "30 km long"
+    "dates": "29 Mar–4 Apr",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "3,200 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,700 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "80 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "90 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "300 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "26 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "10 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "11 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 26,
-    "dates": "29 Mar–4 Apr 2027",
-    "runs": [
-      "9 km easy",
-      "9 km easy",
-      "5 km Parkrun",
-      "22 km long"
+    "dates": "5–11 Apr",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,400 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,800 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "60 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "65 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "210 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "20 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "8 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "7 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 27,
-    "dates": "5–11 Apr 2027",
-    "runs": [
-      "13 km incl 3×3 km @ 5:25–5:35",
-      "10 km easy",
-      "7 km easy",
-      "28 km long"
+    "dates": "12–18 Apr",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "3,200 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,700 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "80 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "90 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "300 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "28 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "10 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "10 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 28,
-    "dates": "12–18 Apr 2027",
-    "runs": [
-      "12 km: 2 easy + 8 @ 5:30–5:35 + 2 easy",
-      "10 km easy",
-      "6 km easy",
-      "32 km long"
+    "dates": "19–25 Apr",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "3,300 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,800 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "85 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "95 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "330 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "30 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "10 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "12 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 29,
-    "dates": "19–25 Apr 2027",
-    "runs": [
-      "10 km incl 5×1 km threshold",
-      "9 km easy",
-      "6 km easy",
-      "24 km long"
+    "dates": "26 Apr–2 May",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,500 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,900 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "60 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "65 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "210 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "22 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "7 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "8 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 30,
-    "dates": "26 Apr–2 May 2027",
-    "runs": [
-      "11 km incl 6 km marathon pace",
-      "9 km easy",
-      "6 km easy",
-      "28 km long"
+    "dates": "3–9 May",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "3,400 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,900 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "85 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "95 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "300 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "28 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "9 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "10 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 31,
-    "dates": "3–9 May 2027",
-    "runs": [
-      "12 km: 2 easy + 8 @ 5:30–5:35 + 2 easy",
-      "10 km easy",
-      "6 km easy",
-      "30 km long"
+    "dates": "10–16 May",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "3,000 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,400 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "70 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "75 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "240 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "24 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "8 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "8 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 32,
-    "dates": "10–16 May 2027",
-    "runs": [
-      "10 km incl 4×1 km",
-      "9 km easy",
-      "6 km easy",
-      "22 km long"
+    "dates": "17–23 May",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,800 m technique + easy aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,200 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "60 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "65 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "210 min endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "18 km long easy run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "6 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "6 km tempo or controlled Parkrun",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 33,
-    "dates": "17–23 May 2027",
-    "runs": [
-      "9 km incl 5 km marathon pace",
-      "8 km easy",
-      "5 km easy",
-      "18 km long"
+    "dates": "24–30 May",
+    "phase": "Marathon focus",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "1,000 m relaxed technique",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "Optional 1,200 m easy",
+        "optional": true
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "45 min easy spin",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "Optional 30 min easy spin",
+        "optional": true
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "90 min easy bike",
+        "optional": true
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "Edinburgh Marathon — 42.2 km",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "3 km easy",
+        "optional": true
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "3 km easy + 4×20-sec strides",
+        "optional": true
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   },
   {
     "week": 34,
-    "dates": "24–30 May 2027",
-    "runs": [
-      "8 km incl 4 km marathon pace",
-      "7 km easy",
-      "3 km easy + 4×20-sec strides",
-      "EDINBURGH MARATHON — 42.2 km"
+    "dates": "31 May–6 Jun",
+    "phase": "Recovery + Ironman build",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "1,500 m easy return",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "1,800 m relaxed",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "30 min recovery spin",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "40 min easy spin",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "90 min comfortable ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "10 km easy long run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "6 km easy, no hills required",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "5 km easy",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "week": 35,
+    "dates": "7–13 Jun",
+    "phase": "Recovery + Ironman build",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "3,000 m technique + aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,400 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "70 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "75 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "240 min Ironman endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "14 km easy long run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "7 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "6 km tempo / Parkrun effort",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "week": 36,
+    "dates": "14–20 Jun",
+    "phase": "Recovery + Ironman build",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "3,200 m technique + aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,700 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "75 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "80 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "270 min Ironman endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "16 km easy long run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "8 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "7 km tempo / Parkrun effort",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "week": 37,
+    "dates": "21–27 Jun",
+    "phase": "Recovery + Ironman build",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "3,400 m technique + aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,900 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "80 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "90 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "300 min Ironman endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "18 km easy long run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "8 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "8 km tempo / Parkrun effort",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "week": 38,
+    "dates": "28 Jun–4 Jul",
+    "phase": "Recovery + Ironman build",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "3,600 m technique + aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "4,100 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "90 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "100 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "330 min Ironman endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "20 km easy long run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "8 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "8 km tempo / Parkrun effort",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "week": 39,
+    "dates": "5–11 Jul",
+    "phase": "Recovery + Ironman build",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "3,200 m technique + aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,700 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "75 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "80 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "300 min Ironman endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "18 km easy long run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "7 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "7 km tempo / Parkrun effort",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "week": 40,
+    "dates": "12–18 Jul",
+    "phase": "Recovery + Ironman build",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "3,000 m technique + aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,400 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "70 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "75 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "240 min Ironman endurance ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "16 km easy long run",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "6 km hilly run, controlled",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "6 km tempo / Parkrun effort",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "week": 41,
+    "dates": "19–25 Jul",
+    "phase": "Ironman taper",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,600 m technique + aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "3,000 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "60 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "60 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "180 min steady ride; practise fuelling",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "12 km easy",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "5 km easy hills",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "5 km with 2 km steady",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "week": 42,
+    "dates": "26 Jul–1 Aug",
+    "phase": "Ironman taper",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "2,200 m technique + aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,500 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "50 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "50 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "120 min comfortable ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "10 km easy",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "4 km easy",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "4 km easy + strides",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "week": 43,
+    "dates": "2–8 Aug",
+    "phase": "Ironman taper",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "1,800 m technique + aerobic",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "2,100 m steady endurance",
+        "optional": false
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "40 min easy aerobic / cadence",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "40 min tempo or intervals",
+        "optional": false
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "90 min easy ride",
+        "optional": false
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "8 km easy",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "4 km easy",
+        "optional": false
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "3 km easy",
+        "optional": false
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "week": 44,
+    "dates": "9–15 Aug 2027",
+    "phase": "Race week",
+    "sessions": [
+      {
+        "id": "swim1",
+        "type": "swim",
+        "name": "Swim 1",
+        "detail": "800–1,000 m relaxed",
+        "optional": false
+      },
+      {
+        "id": "swim2",
+        "type": "swim",
+        "name": "Swim 2",
+        "detail": "Optional 10–15 min easy splash",
+        "optional": true
+      },
+      {
+        "id": "bike1",
+        "type": "bike",
+        "name": "Bike 1 — short",
+        "detail": "20–30 min easy spin",
+        "optional": false
+      },
+      {
+        "id": "bike2",
+        "type": "bike",
+        "name": "Bike 2 — short",
+        "detail": "Optional 15–20 min easy spin",
+        "optional": true
+      },
+      {
+        "id": "bike3",
+        "type": "bike",
+        "name": "Bike 3 — long",
+        "detail": "Optional 30–45 min easy spin early in week",
+        "optional": true
+      },
+      {
+        "id": "run1",
+        "type": "run",
+        "name": "Run 1 — long",
+        "detail": "IRONMAN LEEDS — full distance",
+        "optional": false
+      },
+      {
+        "id": "run2",
+        "type": "run",
+        "name": "Run 2 — hills",
+        "detail": "Rest / short 10–15 min jog if desired",
+        "optional": true
+      },
+      {
+        "id": "run3",
+        "type": "run",
+        "name": "Run 3 — tempo / Parkrun",
+        "detail": "Rest / short 10–15 min jog if desired",
+        "optional": true
+      },
+      {
+        "id": "brick",
+        "type": "brick",
+        "name": "Optional brick run",
+        "detail": "10–20 min very easy off Bike 1 or Bike 2; skip if tired",
+        "optional": true
+      }
     ]
   }
 ]
